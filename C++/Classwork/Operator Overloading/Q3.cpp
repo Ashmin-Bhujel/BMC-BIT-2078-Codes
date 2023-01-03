@@ -38,7 +38,7 @@ class Complex {
 int main() {
     // Creating objects
     Complex c1(1, -3);
-    Complex c2(4, -5);
+    Complex c2(4, 5);
     Complex c3;
 
     // Implicit (+) operator function call

@@ -19,17 +19,17 @@ class Rectangle {
         // Overloading the (<) operator
         void operator <(Rectangle r) {
             if ((length * breadth) < (r.length * r.breadth))
-                cout << "Rectangle r1 is smaller than rectangle r2" << endl;
+                cout << "Rectangle r1 is smaller than rectangle r2 in terms of area" << endl;
             else
-                cout << "Rectangle r1 is bigger than rectangle r2" << endl;
+                cout << "Rectangle r1 is bigger than rectangle r2 in terms of area" << endl;
         }
 
         // Overloading the (>) operator
         void operator >(Rectangle r) {
             if ((length * breadth) > (r.length * r.breadth))
-                cout << "Rectangle r1 is bigger than rectangle r2" << endl;
+                cout << "Rectangle r1 is bigger than rectangle r2 in terms of area" << endl;
             else
-                cout << "Rectangle r1 is smaller than rectangle r2" << endl;
+                cout << "Rectangle r1 is smaller than rectangle r2 in terms of area" << endl;
         }
 };
 
