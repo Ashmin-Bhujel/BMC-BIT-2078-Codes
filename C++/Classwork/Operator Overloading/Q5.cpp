@@ -29,7 +29,7 @@ int main() {
     AString s1;
     AString s2;
 
-    // Comparing s1 and s2 and printing the concatenated string
+    // Comparing s1 and s2 and printing the result
     s1 == s2;
     return 0;
 }
